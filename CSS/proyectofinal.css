@@ -1,0 +1,360 @@
+* {
+    margin: none;
+    padding: none;
+}
+
+
+body {
+
+
+
+    background-image: url(../imagenes.html/Fondomargaritas.jpeg);
+    background-repeat: repeat;
+    background-size: 400px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+
+
+
+
+}
+
+#lacocinademargarita {
+    font-size: 80px;
+    text-align: center;
+    color: #566890;
+    background-color: whitesmoke;
+    font-weight: 200
+}
+
+
+
+
+.menuppal ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f2e18d;
+    height: 60px;
+    /*cuanto quiero que cubra el color del fondo*/
+    justify-content: space-around;
+    /*para que queden todos con  el mismo espacio*/
+    align-items: center;
+    /* para alinear al medio los items del menu*/
+
+
+}
+
+
+
+.elementomenu {
+    text-decoration: none;
+    color: #566890;
+
+
+    /*al convertirla en bloque hago que ocupe el espacio que tiene su contnendor adre que es li*/
+
+}
+
+.elementomenu:hover {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+.seccioninicio h2 {
+    color: #566890;
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+    width: 1200px;
+    ;
+    height: 80px;
+    margin-bottom: 5px;
+}
+
+
+.seccioninicio h3 {
+    font-size: 25px;
+    font-weight: 300;
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+    color: #566890;
+}
+
+.img-index {
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+
+}
+
+.seccioninicio a {
+    color: #566890;
+    text-decoration: none;
+
+}
+
+.recetas_inicio {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    ;
+}
+
+.recetainicio {
+    background-color: rgba(226, 218, 176, 0.6);
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #566890;
+    width: 310px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.recetainicio p {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 2px;
+    margin: 2px;
+    flex-grow: 1;
+    /*hago que el boton me quede lo mas abajo*/
+}
+
+.botonreceta {
+    color: #566890;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #f2e18d;
+    width: 70px;
+    text-align: center;
+    border: 1px solid #566890;
+    margin-top: 10px;
+    margin-left: 5px;
+    /*para que me quede el boton a la derecha en vez que a la ozquierda*/
+    transition: 0.3s;
+
+}
+
+.botonreceta:hover {
+    transform: scale(1.1);
+    border: 2px solid #566890;
+}
+
+
+
+.inspoinicio {
+    background-color: rgb(226, 218, 176);
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #566890;
+    width: 80%;
+    height: 80%;
+
+
+}
+
+.contenido_inspoinicio {
+    display: flex;
+}
+
+
+.inspoinicio h3 {
+    font-size: 40px;
+    padding: 1px;
+    margin: 1px;
+    width: 1000px;
+    text-align: center;
+
+
+}
+
+
+
+
+.inspoinicio img {
+    width: 70%;
+    padding: 1px;
+    margin: 1px 1px 1px 1px;
+
+}
+
+
+
+
+
+.inspoinicio p {
+    color: black;
+    font-weight: 200;
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+    width: 300px;
+    height: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+
+
+
+
+
+
+footer a {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.listarecetas img {
+    width: 300px;
+    height: 300px;
+}
+
+/*Formulario contacto*/
+
+.formulariocontacto {
+    border: 2px solid #566890;
+    border-radius: 5px;
+    background-color: rgba(226, 218, 176, 0.6);
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    color: #566890;
+    font-weight: 300;
+}
+
+#formulario {
+    text-align: center;
+    margin: 5px;
+}
+
+
+.formulariocontacto label {
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.formulariocontacto input {
+    display: block
+}
+
+.texto_formulario {
+    width: 280px;
+    font-family: montserrat, sans-serif;
+    font-weight: 200;
+    border: 2px solid #566890;
+    border-radius: 5px;
+}
+
+#dob {
+    width: 280px;
+    border: 2px solid #566890;
+    border-radius: 5px;
+    color: #566890;
+}
+
+
+
+textarea {
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 200;
+    resize: none;
+    width: 280px;
+    margin-bottom: 10px;
+    border: 2px solid #566890;
+    border-radius: 5px
+}
+
+
+#botonformulario {
+    border: 2px #566890 solid;
+    border-radius: 5px;
+    color: #566890;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #f2e18d;
+    margin: auto;
+    transition: 0.3s;
+}
+
+#botonformulario:hover {
+    border: 3px #566890 solid;
+    transform: scale(1.2);
+}
+
+/*Recetas Saladas*/
+
+.elemento_galeriarecetas {
+    display: flex;
+    background-color: rgba(226, 218, 176, 0.6);
+    margin: 5px;
+    border: 2px solid #566890;
+    width: 310px;
+    height: 390px;
+    flex-direction: column;
+
+}
+
+.elemento_galeriarecetas h3 {
+    font-size: 25px;
+    font-weight: 300;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    text-align: center;
+    color: #566890;
+
+
+}
+
+.elemento_galeriarecetas img {
+    width: 300px;
+    margin: 2px auto 2px auto;
+
+}
+
+.galeriarecetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+}
