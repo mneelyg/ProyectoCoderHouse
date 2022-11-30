@@ -201,11 +201,11 @@ body {
 
 
 
-    
-    
 
 
-.contenido_inspoinicio_col{
+
+
+.contenido_inspoinicio_col {
     display: flex;
     flex-direction: column;
 }
@@ -366,3 +366,41 @@ textarea {
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
 }
+
+.receta_d_s h2 {
+    font-size: 40px;
+    color: #566890;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.receta_d_s p{
+    font-weight: 300;
+}
+
+.tiempoprep li{
+    font-weight: 300;
+    
+
+}
+
+.cuadroreceta{
+    border: 2px solid #566890;
+    background-color: rgba(226, 218, 176, 0.6);
+    padding-left:30px;
+    width: 80%;
+    margin:auto;
+}
+.ingredientes h2{
+    color: #566890;
+}
+
+.ingredientes ul,ol{
+    font-weight: 300;
+}
+
+.ingredientes h3{
+    color: #566890;
+    text-decoration: underline;
+}
+
