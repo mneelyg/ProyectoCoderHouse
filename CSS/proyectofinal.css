@@ -12,12 +12,13 @@ body {
     background-repeat: repeat;
     background-size: 400px;
     font-family: 'Montserrat', sans-serif;
+    width: 1400px;
 
 }
 
 .container {
-    width: 1200px;
-    height: 100%;
+    width: 1000px;
+    height: auto;
     margin: auto;
 
 
@@ -75,11 +76,13 @@ body {
     color: #566890;
     font-size: 4rem;
     font-weight: 300;
-    text-align: center;
-    width: 1200px;
-    ;
+margin:auto;
+    width: 700px;
     height: 80px;
     margin-bottom: 5px;
+    text-align: center;
+    
+    
 }
 
 
@@ -398,7 +401,7 @@ textarea {
 
 .cuadroreceta {
     border: 2px solid #566890;
-    background-color: rgba(226, 218, 176, 0.6);
+    background-color: rgba(226, 218, 176, 0.8);
     padding-left: 30px;
     width: 80%;
     margin: auto;
