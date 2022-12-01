@@ -366,50 +366,66 @@ textarea {
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
 }
-.receta_d_s{
+
+.receta_d_s {
     margin-left: 30px;
     margin-right: 30px;
 }
+
 .receta_d_s h2 {
     font-size: 40px;
     color: #566890;
     font-weight: 400;
     text-decoration: underline;
+    margin-bottom: 10px;
 
 
 }
 
-.receta_d_s p{
+.receta_d_s p {
     font-weight: 300;
 }
 
-.receta_d_s img{
+.receta_d_s img {
     border: 2px solid #566890;
 }
 
-.tiempoprep li{
+.tiempoprep li {
     font-weight: 300;
-    
+
 
 }
 
-.cuadroreceta{
+.cuadroreceta {
     border: 2px solid #566890;
     background-color: rgba(226, 218, 176, 0.6);
-    padding-left:30px;
+    padding-left: 30px;
     width: 80%;
-    margin:auto;
+    margin: auto;
 }
-.ingredientes h2{
+
+.ingredientes h2 {
     color: #566890;
 }
 
-.ingredientes ul,ol{
+.ingredientes ul,
+ol {
     font-weight: 300;
 }
 
-.ingredientes h3{
+.ingredientes h3 {
     color: #566890;
     text-decoration: underline;
 }
 
+/*blog*/
+
+.articuloblog h3 {
+    color: #566890;
+    font-size: 25px;
+}
+
+.articuloblog iframe {
+    border-radius: 12px;
+    ;
+}
