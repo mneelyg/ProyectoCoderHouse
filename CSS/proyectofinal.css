@@ -3,47 +3,34 @@
     padding: none;
 }
 
-
 body {
-
-
-
     background-image: url(../imagenes.html/Fondomargaritas.jpeg);
     background-repeat: repeat;
     background-size: 400px;
     font-family: 'Montserrat', sans-serif;
-    width: 1400px;
-
 }
 
 .container {
-    width: 1000px;
-    height: auto;
+    max-width: 1100px;
+    width: 90%;
     margin: auto;
-
-
-
-
 }
 
 
 #lacocinademargarita {
-
-    font-size: 80px;
+    font-size: 5rem;
     text-align: center;
     color: #566890;
     background-color: whitesmoke;
-    font-weight: 200
+    font-weight: 200;
+    width: 100%;
 }
 
 
-
-
 .menuppal ul {
+    width: 100%;
     display: flex;
     list-style: none;
-    padding: 0;
-    margin: 0;
     background-color: #f2e18d;
     height: 60px;
     /*cuanto quiero que cubra el color del fondo*/
@@ -52,18 +39,13 @@ body {
     align-items: center;
     /* para alinear al medio los items del menu*/
 
-
 }
-
 
 
 .elementomenu {
     text-decoration: none;
     color: #566890;
-
-
     /*al convertirla en bloque hago que ocupe el espacio que tiene su contnendor adre que es li*/
-
 }
 
 .elementomenu:hover {
@@ -71,36 +53,31 @@ body {
     font-weight: 600;
 }
 
-
-
-
 .seccioninicio h2 {
     color: #566890;
-    font-size: 60px;
+    font-size: 4rem;
     font-weight: 300;
     margin: auto;
-    width: 700px;
-    height: 80px;
+    width: 100%;
     margin-bottom: 5px;
     text-align: center;
-
 
 }
 
 
 .seccioninicio h3 {
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 300;
-    width: 300px;
+    width: 100%;
     margin: 5px;
     text-align: center;
     color: #566890;
 }
 
 .img-index {
-    width: 300px;
-    height: 300px;
-    padding: 5px;
+    width: 280px;
+    height: auto;
+    margin: auto;
 
 }
 
@@ -112,9 +89,10 @@ body {
 
 .recetas_inicio {
     display: flex;
-    justify-content: space-around;
     margin-top: 10px;
-    ;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
 }
 
 .recetainicio {
@@ -122,7 +100,7 @@ body {
     margin: 10px;
     padding: 5px;
     border: 2px solid #566890;
-    width: 310px;
+    width: 300px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -133,7 +111,7 @@ body {
 
 .recetainicio p {
     color: #000000;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 300;
     padding: 2px;
     margin: 2px;
@@ -169,17 +147,19 @@ body {
     margin-bottom: 20px;
     padding: 5px 5px 5px 5px;
     border: 2px solid #566890;
-    width: 80%;
-
-
+    width: 100%;
 
 }
 
+#inspodelmes {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .inspoinicio h3 {
-    font-size: 40px;
+    font-size: 2.5rem;
     padding: 1px;
     margin: 1px;
-    width: 1000px;
     text-align: center;
 
 
@@ -187,11 +167,12 @@ body {
 
 .contenido_inspoinicio {
     display: flex;
+    flex-direction: column;
 }
 
 .inspoinicio img {
-
-    width: 70%;
+    flex-basis: 70%;
+    width: 100%;
     height: auto;
     padding: 1px;
     margin: 1px 1px 1px 1px;
@@ -215,10 +196,6 @@ body {
     flex-grow: 1;
 }
 
-
-
-
-
 footer {
     text-align: center;
     font-size: 12px;
@@ -226,15 +203,9 @@ footer {
 }
 
 
-
-
-
-
 footer a {
     color: rgb(0, 0, 0);
 }
-
-
 
 
 .listarecetas img {
@@ -437,59 +408,21 @@ ol {
 }
 
 /*RESPONSIVE PARA CELULAR*/
-@media screen and (max-width: 480px) {
-    body {
-        width: 100%;
-    }
+@media screen and (max-width: 400px) {
 
-    .container {
-        width: 100%;
-    }
+
 
     #lacocinademargarita {
-        display: flex;
-        font-size: 40px;
+
+        font-size: 50px;
         justify-content: center;
     }
 
     .menuppal ul {
         flex-direction: column;
-        height: 200px;
-
-    }
-
-    .seccioninicio h2 {
-        font-size: 40px;
-        display: flex;
+        height: 180px;
         width: 100%;
-        justify-content: center;
-        margin-top: 25px;
-    background-color: beige; 
-height: 120%;   }
 
-    .recetas_inicio {
-        flex-direction: column;
-        align-items: center;
     }
 
-
-    .inspoinicio h3 {
-        font-size: 25px;
-        padding: 1px;
-        margin: 1px;
-        width: 300px;
-        text-align: center;
-    }
-
-    .contenido_inspoinicio {
-        flex-direction: column;
-    }
-
-    .contenido_inspoinicio p {
-        display: none;
-    }
-
-    .contenido_inspoinicio img{
-        width: 95%;
-    }
 }
