@@ -407,6 +407,17 @@ ol {
     ;
 }
 
+
+/*RESPONSIVE PARA CELULAR*/
+@media screen and (max-width:700px) {
+    .galeriarecetas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+
+    }
+}
+
 /*RESPONSIVE PARA CELULAR*/
 @media screen and (max-width: 400px) {
 
@@ -422,6 +433,13 @@ ol {
         flex-direction: column;
         height: 180px;
         width: 100%;
+
+    }
+
+    .galeriarecetas {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
 
     }
 
