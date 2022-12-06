@@ -26,7 +26,9 @@ body {
 
 }
 
+
 #lacocinademargarita {
+
     font-size: 80px;
     text-align: center;
     color: #566890;
@@ -74,7 +76,7 @@ body {
 
 .seccioninicio h2 {
     color: #566890;
-    font-size: 4rem;
+    font-size: 60px;
     font-weight: 300;
     margin: auto;
     width: 700px;
@@ -182,23 +184,23 @@ body {
 
 
 }
+
 .contenido_inspoinicio {
     display: flex;
 }
 
 .inspoinicio img {
 
-  width: 70%;
-  height: auto;
+    width: 70%;
+    height: auto;
     padding: 1px;
     margin: 1px 1px 1px 1px;
 
 }
 
 
-.contenido_inspoinicio_col 
-{
-    flex-basis:30%;
+.contenido_inspoinicio_col {
+    flex-basis: 30%;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -432,4 +434,62 @@ ol {
 .articuloblog iframe {
     border-radius: 12px;
     ;
+}
+
+/*RESPONSIVE PARA CELULAR*/
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #lacocinademargarita {
+        display: flex;
+        font-size: 40px;
+        justify-content: center;
+    }
+
+    .menuppal ul {
+        flex-direction: column;
+        height: 200px;
+
+    }
+
+    .seccioninicio h2 {
+        font-size: 40px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 25px;
+    background-color: beige; 
+height: 120%;   }
+
+    .recetas_inicio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .inspoinicio h3 {
+        font-size: 25px;
+        padding: 1px;
+        margin: 1px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .contenido_inspoinicio {
+        flex-direction: column;
+    }
+
+    .contenido_inspoinicio p {
+        display: none;
+    }
+
+    .contenido_inspoinicio img{
+        width: 95%;
+    }
 }
