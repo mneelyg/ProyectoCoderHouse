@@ -414,10 +414,14 @@ ol {
 /*RESPONSIVE PARA CELULAR*/
 @media screen and (max-width: 480px) {
 
+    .container {
+        width: 80%;
+    }
+
 
 
     #lacocinademargarita {
-
+        width: 100%;
         font-size: 50px;
         justify-content: center;
     }
@@ -425,8 +429,13 @@ ol {
     .menuppal ul {
         flex-direction: column;
         height: 180px;
-        width: 100%;
+        width: 80%;
+        margin: auto;
+        
 
+    }
+    .recetainicio {
+        margin: auto;
     }
 
     .galeriarecetas {
