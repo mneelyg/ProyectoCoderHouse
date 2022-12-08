@@ -412,7 +412,7 @@ ol {
 
 
 /*RESPONSIVE PARA CELULAR*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 450px) {
 
     .container {
         width: 80%;
@@ -429,8 +429,7 @@ ol {
     .menuppal ul {
         flex-direction: column;
         height: 180px;
-        width: 80%;
-        margin: auto;
+        width: 100%;
         
 
     }
