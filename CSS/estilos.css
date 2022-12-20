@@ -14,14 +14,12 @@ body {
   margin: auto; }
 
 #lacocinademargarita {
-  margin:auto;
-  font-size: 15vh;
+  font-size: 5rem;
   text-align: center;
   color: #566890;
   background-color: whitesmoke;
   font-weight: 200;
-  width: 100%;
-}
+  width: 100%; }
 
 .menuppal ul {
   width: 100%;
@@ -33,11 +31,14 @@ body {
   justify-content: space-between;
   /*para que queden todos con  el mismo espacio*/
   align-items: center;
+  padding: 0;
   /* para alinear al medio los items del menu*/ }
 
 .elementomenu {
   text-decoration: none;
   color: #566890;
+  padding: 0;
+  margin: 10px;
   /*al convertirla en bloque hago que ocupe el espacio que tiene su contnendor adre que es li*/ }
 
 .elementomenu:hover {
