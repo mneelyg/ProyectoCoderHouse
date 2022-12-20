@@ -309,23 +309,33 @@ ol {
   font-size: 25px; }
 
 .articuloblog iframe {
-  border-radius: 12px; }
+  border-radius: 13px; }
 
 /*RESPONSIVE PARA CELULAR*/
 @media screen and (max-width: 450px) {
   .container {
     width: 80%; }
   #lacocinademargarita {
-    width: 100%;
+    width: 90vw;
     font-size: 51px;
     justify-content: center; }
+  .seccioninicio h2 {
+    font-size: 40px; }
   .menuppal ul {
     flex-direction: column;
-    height: 180px;
-    width: 100%; }
+    height: 170px;
+    width: 80vw;
+    margin: auto;
+    align-items: center; }
+  .elementomenu {
+    margin-right: 30px; }
   .recetainicio {
     margin: auto; }
   .galeriarecetas {
     display: grid;
     grid-template-columns: 1fr;
-    justify-items: center; } }
+    justify-items: center; }
+  .formulariocontacto {
+    width: 70vw; }
+  .texto_formulario, #dob, textarea {
+    width: 65vw; } }
