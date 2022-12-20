@@ -330,7 +330,8 @@ ol {
   .elementomenu {
     margin-right: 30px; }
   .recetainicio {
-    margin: auto; }
+    margin: auto;
+    margin-top: 10px; }
   .galeriarecetas {
     display: grid;
     grid-template-columns: 1fr;
