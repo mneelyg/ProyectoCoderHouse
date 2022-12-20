@@ -6,10 +6,10 @@ body {
     background-repeat: repeat;
     background-size: 400px;
     font-family: 'Montserrat', sans-serif;
+   
 }
 
 .container {
-    max-width: 1100px;
     width: 90%;
     margin: auto;
 }
@@ -21,7 +21,8 @@ body {
     color: #566890;
     background-color: whitesmoke;
     font-weight: 200;
-    width: 100%;
+    width:100%;
+    border: 1px solid black;
 }
 
 
@@ -32,7 +33,7 @@ body {
     background-color: #f2e18d;
     height: 60px;
     /*cuanto quiero que cubra el color del fondo*/
-    justify-content: space-around;
+    justify-content: space-between;
     /*para que queden todos con  el mismo espacio*/
     align-items: center;
     /* para alinear al medio los items del menu*/
