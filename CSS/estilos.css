@@ -28,7 +28,7 @@ body {
   background-color: #f2e18d;
   height: 60px;
   /*cuanto quiero que cubra el color del fondo*/
-  justify-content: space-between;
+  justify-content: space-around;
   /*para que queden todos con  el mismo espacio*/
   align-items: center;
   padding: 0;
@@ -324,11 +324,9 @@ ol {
   .menuppal ul {
     flex-direction: column;
     height: 170px;
-    width: 80vw;
+    width: 100vw;
     margin: auto;
     align-items: center; }
-  .elementomenu {
-    margin-right: 30px; }
   .recetainicio {
     margin: auto;
     margin-top: 10px; }
