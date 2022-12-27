@@ -6,7 +6,6 @@ body {
     background-repeat: repeat;
     background-size: 400px;
     font-family: 'Montserrat', sans-serif;
-   
 }
 
 .container {
@@ -21,33 +20,32 @@ body {
     color: #566890;
     background-color: whitesmoke;
     font-weight: 200;
-    width:100%;
-
-}
-
-
-.menuppal ul {
     width: 100%;
-    display: flex;
-    list-style: none;
-    background-color: #f2e18d;
-    height: 60px;
-
-    /*cuanto quiero que cubra el color del fondo*/
-    justify-content: space-around;
-    /*para que queden todos con  el mismo espacio*/
-    align-items: center;
-    padding:0;
-    /* para alinear al medio los items del menu*/
-
 }
 
+
+.menuppal {
+
+    ul {
+        width: 100%;
+        display: flex;
+        list-style: none;
+        background-color: #f2e18d;
+        height: 60px;
+
+        /*cuanto quiero que cubra el color del fondo*/
+        justify-content: space-around;
+        /*para que queden todos con  el mismo espacio*/
+        align-items: center;
+        padding: 0;
+        /* para alinear al medio los items del menu*/
+    }
+}
 
 .elementomenu {
     text-decoration: none;
     color: #566890;
-    padding:0;
-
+    padding: 0;
     /*al convertirla en bloque hago que ocupe el espacio que tiene su contnendor adre que es li*/
 }
 
@@ -56,38 +54,36 @@ body {
     font-weight: 600;
 }
 
-.seccioninicio h2 {
-    color: #566890;
-    font-size: 4rem;
-    font-weight: 300;
-    margin: auto;
-    width: 100%;
-    margin-bottom: 5px;
-    text-align: center;
+.seccioninicio {
+    h2 {
+        color: #566890;
+        font-size: 4rem;
+        font-weight: 300;
+        margin: auto;
+        width: 80%;
+        margin-bottom: 5px;
+        text-align: center;
+    }
 
-}
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        width: 100%;
+        margin: 5px;
+        text-align: center;
+        color: #566890;
+    }
 
-
-.seccioninicio h3 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    width: 100%;
-    margin: 5px;
-    text-align: center;
-    color: #566890;
+    a {
+        color: #566890;
+        text-decoration: none;
+    }
 }
 
 .img-index {
     width: 280px;
     height: auto;
     margin: auto;
-
-}
-
-.seccioninicio a {
-    color: #566890;
-    text-decoration: none;
-
 }
 
 .recetas_inicio {
@@ -108,18 +104,16 @@ body {
     display: flex;
     flex-direction: column;
 
-}
+    p {
+        color: #000000;
+        font-size: 1rem;
+        font-weight: 300;
+        padding: 2px;
+        margin: 2px;
+        flex-grow: 1;
+        /*hago que el boton me quede lo mas abajo*/
+    }
 
-
-
-.recetainicio p {
-    color: #000000;
-    font-size: 1rem;
-    font-weight: 300;
-    padding: 2px;
-    margin: 2px;
-    flex-grow: 1;
-    /*hago que el boton me quede lo mas abajo*/
 }
 
 .botonreceta {
@@ -135,14 +129,11 @@ body {
     /*para que me quede el boton a la derecha en vez que a la ozquierda*/
     transition: 0.3s;
 
+    &:hover {
+        transform: scale(1.1);
+        border: 2px solid #566890;
+    }
 }
-
-.botonreceta:hover {
-    transform: scale(1.1);
-    border: 2px solid #566890;
-}
-
-
 
 .inspoinicio {
     background-color: rgb(226, 218, 176);
@@ -151,6 +142,31 @@ body {
     padding: 5px 5px 5px 5px;
     border: 2px solid #566890;
     width: 100%;
+
+    h3 {
+        font-size: 2.5rem;
+        padding: 1px;
+        margin: 1px;
+        text-align: center;
+    }
+
+    img {
+        flex-basis: 70%;
+        width: 100%;
+        height: auto;
+        padding: 1px;
+        margin: 1px 1px 1px 1px;
+
+    }
+
+    p {
+        color: black;
+        font-weight: 200;
+        padding: 10px;
+        margin: 10px;
+        display: inline;
+        flex-grow: 1;
+    }
 }
 
 #inspodelmes {
@@ -158,27 +174,10 @@ body {
     margin-bottom: 20px;
 }
 
-.inspoinicio h3 {
-    font-size: 2.5rem;
-    padding: 1px;
-    margin: 1px;
-    text-align: center;
-}
-
 .contenido_inspoinicio {
     display: flex;
     flex-direction: column;
 }
-
-.inspoinicio img {
-    flex-basis: 70%;
-    width: 100%;
-    height: auto;
-    padding: 1px;
-    margin: 1px 1px 1px 1px;
-
-}
-
 
 .contenido_inspoinicio_col {
     flex-basis: 30%;
@@ -187,26 +186,15 @@ body {
 
 }
 
-.inspoinicio p {
-    color: black;
-    font-weight: 200;
-    padding: 10px;
-    margin: 10px;
-    display: inline;
-    flex-grow: 1;
-}
-
 footer {
     text-align: center;
     font-size: 12px;
     color: black;
+
+    a {
+        color: rgb(0, 0, 0);
+    }
 }
-
-
-footer a {
-    color: rgb(0, 0, 0);
-}
-
 
 .listarecetas img {
     width: 300px;
@@ -224,24 +212,23 @@ footer a {
     margin: auto;
     color: #566890;
     font-weight: 300;
+
+    label {
+        display: block;
+        padding-bottom: 5px;
+        padding-top: 10px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    input {
+        display: block
+    }
 }
 
 #formulario {
     text-align: center;
     margin: 5px;
-}
-
-
-.formulariocontacto label {
-    display: block;
-    padding-bottom: 5px;
-    padding-top: 10px;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.formulariocontacto input {
-    display: block
 }
 
 .texto_formulario {
@@ -259,12 +246,8 @@ footer a {
     color: #566890;
 }
 
-
-
 textarea {
-
     font-family: 'Montserrat', sans-serif;
-
     font-weight: 200;
     resize: none;
     width: 280px;
@@ -283,11 +266,11 @@ textarea {
     background-color: #f2e18d;
     margin: auto;
     transition: 0.3s;
-}
 
-#botonformulario:hover {
-    border: 3px #566890 solid;
-    transform: scale(1.2);
+    &:hover {
+        border: 3px #566890 solid;
+        transform: scale(1.2);
+    }
 }
 
 /*Recetas Saladas*/
@@ -306,73 +289,62 @@ textarea {
     height: 390px;
     flex-direction: column;
 
-}
+    h3 {
+        font-size: 25px;
+        font-weight: 300;
+        width: 300px;
+        margin-top: 5px;
+        margin-bottom: 1px;
+        text-align: center;
+        color: #566890;
+    }
 
-.elemento_galeriarecetas h3 {
-    font-size: 25px;
-    font-weight: 300;
-    width: 300px;
-    margin-top: 5px;
-    margin-bottom: 1px;
-    text-align: center;
-    color: #566890;
+    img {
+        width: 300px;
+        margin: 2px auto 2px auto;
 
-
-}
-
-.elemento_galeriarecetas img {
-    width: 300px;
-    margin: 2px auto 2px auto;
-
+    }
 }
 
 .galeriarecetas {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-
+    justify-content: center;
 }
-  /*RECETAS DULCES Y SALADAS CON PREPARACION*/
+
+/*RECETAS DULCES Y SALADAS CON PREPARACION*/
 .receta_d_s {
-  margin:auto;
-  width:80%
-}
-
-.receta_d_s h2 {
-    font-size: 40px;
-    color: #566890;
-    font-weight: 400;
-    text-decoration: underline;
-    margin-bottom: 10px;
-    margin:auto;
-    text-align: center;
-    width: 100%;
-
-
-}
-
-.receta_d_s p {
-    font-weight: 300;
-    width: 80%;
     margin: auto;
 
-}
+    width: 80% h2 {
+        font-size: 40px;
+        color: #566890;
+        font-weight: 400;
+        text-decoration: underline;
+        margin-bottom: 10px;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
 
-.receta_d_s img {
-    border: 2px solid #566890;
-    height: auto;
-    width: 60vw;
-    
+    p {
+        font-weight: 300;
+        width: 80%;
+        margin: auto;
 
+    }
 
+    img {
+        border: 2px solid #566890;
+        height: auto;
+        width: 60vw;
+    }
 }
 
 .tiempoprep li {
     font-weight: 300;
     width: 80%;
     margin: auto;
-
-
 }
 
 .cuadroreceta {
@@ -383,30 +355,23 @@ textarea {
     margin: auto;
 }
 
-.ingredientes h2 {
-    color: #566890;
+.ingredientes {
+
+    h2 {
+        color: #566890;
+    }
+
+    ul,
+    ol {
+        font-weight: 300;
+    }
+
+    h3 {
+        color: #566890;
+        text-decoration: underline;
+    }
+
 }
 
-.ingredientes ul,
-ol {
-    font-weight: 300;
-}
-
-.ingredientes h3 {
-    color: #566890;
-    text-decoration: underline;
-}
-
-/*blog*/
-
-.articuloblog h3 {
-    color: #566890;
-    font-size: 25px;
-}
-
-.articuloblog iframe {
-    border-radius: 13px;
-    ;
-}
 
 @import "mediaqueries";
