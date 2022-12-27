@@ -19,7 +19,8 @@ body {
   color: #566890;
   background-color: whitesmoke;
   font-weight: 200;
-  width: 100%; }
+  width: 95%;
+  margin: auto; }
 
 .menuppal ul {
   width: 100%;
@@ -27,6 +28,8 @@ body {
   list-style: none;
   background-color: #f2e18d;
   height: 60px;
+  margin: auto;
+  margin-top: 10px;
   /*cuanto quiero que cubra el color del fondo*/
   justify-content: space-around;
   /*para que queden todos con  el mismo espacio*/
@@ -39,10 +42,9 @@ body {
   color: #566890;
   padding: 0;
   /*al convertirla en bloque hago que ocupe el espacio que tiene su contnendor adre que es li*/ }
-
-.elementomenu:hover {
-  font-size: 20px;
-  font-weight: 600; }
+  .elementomenu:hover {
+    font-size: 20px;
+    font-weight: 600; }
 
 .seccioninicio h2 {
   color: #566890;
@@ -252,15 +254,16 @@ textarea {
 /*RECETAS DULCES Y SALADAS CON PREPARACION*/
 .receta_d_s {
   margin: auto;
-  width: 80% h2;
-    width-font-size: 40px;
-    width-color: #566890;
-    width-font-weight: 400;
-    width-text-decoration: underline;
-    width-margin-bottom: 10px;
-    width-margin: auto;
-    width-text-align: center;
-    width-width: 100%; }
+  width: 80%; }
+  .receta_d_s h2 {
+    font-size: 40px;
+    color: #566890;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin: auto;
+    text-align: center;
+    width: 100%; }
   .receta_d_s p {
     font-weight: 300;
     width: 80%;
@@ -304,14 +307,14 @@ textarea {
   .container {
     width: 80%; }
   #lacocinademargarita {
-    width: 100vw;
-    font-size: 51px; }
+    width: 90vw;
+    font-size: 45px; }
   .seccioninicio h2 {
     font-size: 40px; }
   .menuppal ul {
     flex-direction: column;
     height: 170px;
-    width: 100vw;
+    width: 90vw;
     margin: auto;
     align-items: center; }
   .recetainicio {

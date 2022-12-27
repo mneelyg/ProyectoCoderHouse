@@ -1,5 +1,4 @@
-
-@media screen and (max-width: 760px){
+@media screen and (max-width: 760px) {
     .galeriarecetas {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -7,15 +6,17 @@
 
     }
 
-}/*RESPONSIVE PARA CELULAR*/
+}
+
+/*RESPONSIVE PARA CELULAR*/
 @media screen and (max-width: 450px) {
     .container {
         width: 80%;
     }
 
     #lacocinademargarita {
-        width: 100vw;
-        font-size: 51px;
+        width: 90vw;
+        font-size: 45px;
 
     }
 
@@ -26,7 +27,7 @@
     .menuppal ul {
         flex-direction: column;
         height: 170px;
-        width: 100vw;
+        width: 90vw;
         margin: auto;
         align-items: center;
     }
@@ -55,4 +56,3 @@
     }
 
 }
-

@@ -11,6 +11,7 @@ body {
 .container {
     width: 90%;
     margin: auto;
+
 }
 
 
@@ -20,7 +21,8 @@ body {
     color: #566890;
     background-color: whitesmoke;
     font-weight: 200;
-    width: 100%;
+    width: 95%;
+    margin: auto;
 }
 
 
@@ -32,6 +34,8 @@ body {
         list-style: none;
         background-color: #f2e18d;
         height: 60px;
+        margin: auto;
+        margin-top: 10px;
 
         /*cuanto quiero que cubra el color del fondo*/
         justify-content: space-around;
@@ -46,16 +50,17 @@ body {
     text-decoration: none;
     color: #566890;
     padding: 0;
+&:hover{
+    font-size: 20px;
+    font-weight: 600;}
     /*al convertirla en bloque hago que ocupe el espacio que tiene su contnendor adre que es li*/
 }
 
-.elementomenu:hover {
-    font-size: 20px;
-    font-weight: 600;
-}
+
 
 .seccioninicio {
     h2 {
+
         color: #566890;
         font-size: 4rem;
         font-weight: 300;
@@ -315,8 +320,9 @@ textarea {
 /*RECETAS DULCES Y SALADAS CON PREPARACION*/
 .receta_d_s {
     margin: auto;
+    width: 80%;
 
-    width: 80% h2 {
+    h2 {
         font-size: 40px;
         color: #566890;
         font-weight: 400;
